@@ -1,0 +1,22 @@
+{
+    "name": "primer-ish",
+    "displayName": "primer-ish",
+    "description": "A port of the primer theme from sublime",
+    "version": "0.0.1",
+    "publisher": "c",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Primer-ish",
+                "uiTheme": "vs",
+                "path": "./themes/Primer-ish-color-theme.json"
+            }
+        ]
+    }
+}

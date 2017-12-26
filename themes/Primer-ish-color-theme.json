@@ -10,7 +10,6 @@
 		"selection.background": "#3d81c683",
 		// "descriptionForeground": "#ff0000",
 		// "errorForeground": "#ff0000",
-
 		// Text Colors
 		// Colors inside a text document, such as the welcome page.
 		// "textBlockQuote.background": "#3d82c6",
@@ -55,19 +54,19 @@
 		// Lists and Trees
 		// Colors for list and trees like the File Explorer.
 		// An active list/tree has keyboard focus, an inactive does not.
-		"list.activeSelectionBackground": "#fff",
-		"list.activeSelectionForeground": "#064e93",
-		"list.dropBackground": "#ddd",
-		"list.focusBackground": "#ddd",
-		"list.focusForeground": "#4180C6",
-		"list.highlightForeground": "#064e93",
-		"list.hoverBackground": "#ddd",
-		"list.hoverForeground": "#064e93",
-		"list.inactiveSelectionBackground": "#ddd",
-		"list.inactiveSelectionForeground": "#4180C6",
-		"list.inactiveFocusBackground": "#ddd",
-		"list.inactiveFocusForeground": "#333",
-		"list.invalidItemForeground": "#333",
+		// "list.activeSelectionBackground": "#fff",
+		// "list.activeSelectionForeground": "#064e93",
+		// "list.dropBackground": "#ddd",
+		// "list.focusBackground": "#fff",
+		// "list.focusForeground": "#4180C6",
+		// "list.highlightForeground": "#064e93",
+		// "list.hoverBackground": "#fff",
+		// "list.hoverForeground": "#064e93",
+		// "list.inactiveSelectionBackground": "#ddd",
+		// "list.inactiveSelectionForeground": "#4180C6",
+		// "list.inactiveFocusBackground": "#ddd",
+		// "list.inactiveFocusForeground": "#333",
+		// "list.invalidItemForeground": "#333",
 		// Activity Bar
 		// The Activity Bar is displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar.
 		"activityBar.background": "#f5f5f5",
@@ -115,11 +114,11 @@
 		"editor.findMatchBackground": "#ffcc6633",
 		"editor.findMatchHighlightBackground": "#ffcc6633",
 		"editor.findRangeHighlightBackground": "#ffcc6633",
-		"editor.hoverHighlightBackground": "#deb800",
-		"editor.lineHighlightBackground": "#f3f7fb",
-		"editor.lineHighlightBorder": "#f3f7fb",
+		"editor.hoverHighlightBackground": "#ffcc6633",
+		"editor.lineHighlightBackground": "#F0F5FA",
+		"editor.lineHighlightBorder": "#F0F5FA",
 		"editorLink.activeForeground": "#ff0000",
-		"editor.rangeHighlightBackground": "#ff0000",
+		"editor.rangeHighlightBackground": "#ffcc6633",
 		// Rulers, whitespace, indent-lines, line numbers
 		"editorLineNumber.foreground": "#b3b3b3",
 		"editorWhitespace.foreground": "#ececec",
@@ -128,8 +127,8 @@
 		// Code Lens
 		"editorCodeLens.foreground": "#ff0000",
 		// Matching brackets
-		"editorBracketMatch.background": "#e2effd",
-		"editorBracketMatch.border": "#acd5ff",
+		"editorBracketMatch.background": "#F0F5FA",
+		"editorBracketMatch.border": "#e8e8e8",
 		// Overview Ruler
 		// This ruler is located beneath the scroll bar on the right edge of the editor and gives an overview of the decorations in the editor.
 		"editorOverviewRuler.border": "#ddd",
@@ -266,13 +265,13 @@
 		"terminal.ansiBrightCyan": "#85e7ee",
 		"terminal.ansiBrightWhite": "#ffffff",
 		// Debug
-		"debugToolBar.background": "#3d82c6"
+		"debugToolBar.background": "#3d82c6",
 		// Welcome Page
 		// "welcomePage.buttonBackground":"#ff0000",
 		// "welcomePage.buttonHoverBackground":"#ff0000",
 		// "walkThrough.embeddedEditorBackground":"#ff0000",
 		// Git Colors
-		// "gitDecoration.modifiedResourceForeground":"#ff0000",
+		"gitDecoration.modifiedResourceForeground":"#3d82c6"
 		// "gitDecoration.deletedResourceForeground":"#ff0000",
 		// "gitDecoration.untrackedResourceForeground":"#ff0000",
 		// "gitDecoration.ignoredResourceForeground":"#ff0000",
@@ -308,7 +307,7 @@
 		},
 		{
 			"name": "Delimeters",
-			"scope": "punctuation.section.scope",
+			"scope": "punctuation.section.scope, support.function.core",
 			"settings": {
 				"foreground": "#333"
 			}
@@ -329,7 +328,13 @@
 		},
 		{
 			"name": "Variable, Constant, Blocks, Instance Variables",
-			"scope": "variable, variable.other.constant, variable.other.block, variable.other.readwrite.instance, variable.parameter.function",
+			"scope": [
+				"variable",
+				"variable.other.constant",
+				"variable.other.block",
+				"variable.other.readwrite.instance",
+				"variable.parameter.function"
+			],
 			"settings": {
 				"foreground": "#ED6A43"
 			}
@@ -385,7 +390,14 @@
 		},
 		{
 			"name": "Strings, Inherited Class",
-			"scope": "string, constant.other.symbol, entity.other.inherited-class, constant.character.escape.scss, constant.character.escape.css",
+			"scope":[
+					"string",
+					"constant.other.symbol",
+					"entity.other.inherited-class",
+					"constant.character.escape.scss",
+					"constant.character.escape.css",
+					"constant.language.symbol"
+				],
 			"settings": {
 				"foreground": "#4180C6"
 			}

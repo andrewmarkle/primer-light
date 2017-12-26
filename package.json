@@ -17,6 +17,13 @@
                 "uiTheme": "vs",
                 "path": "./themes/Primer-ish-color-theme.json"
             }
+        ],
+        "iconThemes": [
+            {
+                "id": "primer",
+                "label": "Primer-ish",
+                "path": "./Primer-ish-icons.json"
+            }
         ]
     }
 }

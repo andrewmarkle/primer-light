@@ -19,12 +19,11 @@
 		// "textPreformat.foreground":"#ff0000",
 		// "textSeparator.foreground":"#ff0000",
 		// Button Control
-		// TODO
+		// Such as the reload buttons in the extension windows
 		"button.background": "#3d82c6",
-		"button.hoverBackground": "#3d82c6",
-		"button.foreground": "#3d81c683",
+		"button.hoverBackground": "#064e93",
+		"button.foreground": "#fff",
 		// Dropdown Control
-		//
 		// A set of colors for all dropdown widgets such as in the Integrated Terminal or the Output panel.
 		"dropdown.background": "#fff",
 		"dropdown.border": "#ddd",
@@ -54,17 +53,17 @@
 		// Lists and Trees
 		// Colors for list and trees like the File Explorer.
 		// An active list/tree has keyboard focus, an inactive does not.
-		// "list.activeSelectionBackground": "#fff",
-		// "list.activeSelectionForeground": "#064e93",
+		"list.activeSelectionBackground": "#3d82c6",
+		"list.activeSelectionForeground": "#fff",
 		// "list.dropBackground": "#ddd",
-		// "list.focusBackground": "#fff",
-		// "list.focusForeground": "#4180C6",
-		// "list.highlightForeground": "#064e93",
-		// "list.hoverBackground": "#fff",
-		// "list.hoverForeground": "#064e93",
-		// "list.inactiveSelectionBackground": "#ddd",
-		// "list.inactiveSelectionForeground": "#4180C6",
-		// "list.inactiveFocusBackground": "#ddd",
+		"list.focusBackground": "#dbebfd",
+		"list.focusForeground": "#333",
+		"list.highlightForeground": "#3d82c6",
+		"list.hoverBackground": "#fff",
+		"list.hoverForeground": "#000",
+		"list.inactiveSelectionBackground": "#dbebfd",
+		"list.inactiveSelectionForeground": "#4180C6",
+		// "list.inactiveFocusBackground": "#ff0000",
 		// "list.inactiveFocusForeground": "#333",
 		// "list.invalidItemForeground": "#333",
 		// Activity Bar
@@ -107,8 +106,8 @@
 		"editorCursor.background": "#333",
 		"editorCursor.foreground": "#333",
 		"editor.selectionBackground": "#acd5ff",
-		// "editor.selectionHighlightBackground": "#acd5ff",
-		// "editor.inactiveSelectionBackground": "#acd5ff",
+		"editor.selectionHighlightBackground": "#e9f4ff",
+		// "editor.inactiveSelectionBackground": "#d70bbf",
 		// "editor.wordHighlightBackground": "#ffcc6633",
 		// "editor.wordHighlightStrongBackground": "#ffcc6633",
 		"editor.findMatchBackground": "#ffcc6633",
@@ -132,23 +131,23 @@
 		// Overview Ruler
 		// This ruler is located beneath the scroll bar on the right edge of the editor and gives an overview of the decorations in the editor.
 		"editorOverviewRuler.border": "#ddd",
-		// "editorOverviewRuler.findMatchForeground":"#ff0000",
+		// "editorOverviewRuler.findMatchForeground":"#abd4ff",
 		// "editorOverviewRuler.rangeHighlightForeground":"#ff0000",
 		// "editorOverviewRuler.selectionHighlightForeground":"#ff0000",
 		// "editorOverviewRuler.wordHighlightForeground":"#ff0000",
 		// "editorOverviewRuler.wordHighlightStrongForeground":"#ff0000",
-		// "editorOverviewRuler.modifiedForeground":"#ff0000",
-		// "editorOverviewRuler.addedForeground":"#ff0000",
-		// "editorOverviewRuler.deletedForeground":"#ff0000",
-		// "editorOverviewRuler.errorForeground":"#ff0000",
-		// "editorOverviewRuler.warningForeground":"#ff0000",
-		// "editorOverviewRuler.infoForeground":"#ff0000",
+		"editorOverviewRuler.modifiedForeground":"#5F7387",
+		"editorOverviewRuler.addedForeground":"#A1DF8A",
+		"editorOverviewRuler.deletedForeground":"#EB5368",
+		"editorOverviewRuler.errorForeground":"#d21d00",
+		"editorOverviewRuler.warningForeground":"#deb800",
+		"editorOverviewRuler.infoForeground":"#deb800",
 		// Errors and warnings
-		"editorError.border": "#deb800",
+		"editorError.border": "#d21d00",
 		"editorError.foreground": "#fff",
-		"editorWarning.foreground": "#deb800",
 		"editorWarning.border": "#deb800",
-		"editorInfo.foreground": "#deb800",
+		"editorWarning.foreground": "#fff",
+		"editorInfo.border": "#deb800",
 		// Gutter
 		"editorGutter.modifiedBackground": "#F0C36F",
 		"editorGutter.addedBackground": "#A1DF8A",
@@ -156,18 +155,17 @@
 		// Diff Editor
 		"diffEditor.insertedTextBackground": "#e6ffec",
 		"diffEditor.removedTextBackground": "#ffdce0",
-
 		// Editor Widget Colors
 		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
-		// "editorWidget.background":"#ff0000",
-		// "editorWidget.border":"#ff0000",
-		// "editorSuggestWidget.background":"#ff0000",
-		// "editorSuggestWidget.border":"#ff0000",
-		// "editorSuggestWidget.foreground":"#ff0000",
-		// "editorSuggestWidget.highlightForeground":"#ff0000",
-		// "editorSuggestWidget.selectedBackground":"#ff0000",
-		// "editorHoverWidget.background":"#ff0000",
-		// "editorHoverWidget.border":"#ff0000",
+		"editorWidget.background":"#fff",
+		"editorWidget.border": "#ddd",
+		"editorSuggestWidget.background":"#fff",
+		"editorSuggestWidget.border":"#ddd",
+		"editorSuggestWidget.foreground":"#333",
+		"editorSuggestWidget.highlightForeground":"#3d82c6",
+		"editorSuggestWidget.selectedBackground":"#acd5ff",
+		"editorHoverWidget.background":"#fff",
+		"editorHoverWidget.border": "#ddd",
 		// Debug Exception Widget
 		// The Debug Exception widget is a peek view that shows in the editor when debug stops at an exception.
 		// "debugExceptionWidget.background":"#ff0000",
@@ -223,12 +221,9 @@
 		"statusBarItem.hoverBackground": "#ddd",
 		"statusBarItem.prominentBackground": "#f7f7f7f7",
 		"statusBarItem.prominentHoverBackground": "#ddd",
-		// Title Bar Colors (macOS) Leave empty to stick with the defaul macOs title bar
-		// "titleBar.activeForeground": "red",
-		// "titleBar.inactiveForeground": "#738699",
-		// "titleBar.activeBackground": "#fff",
-		// "titleBar.inactiveBackground": "#fff",
-		// "titleBar.border": "#ddd",
+		// Title Bar Colors (macOS)
+		// Leaving this section empty to stick with the native macOS title bar
+		//
 		// Notification Dialog Colors
 		// Notifications slide in from the top of the workbench.
 		"notification.background": "#ddd",
@@ -271,8 +266,8 @@
 		// "welcomePage.buttonHoverBackground":"#ff0000",
 		// "walkThrough.embeddedEditorBackground":"#ff0000",
 		// Git Colors
-		"gitDecoration.modifiedResourceForeground":"#3d82c6"
-		// "gitDecoration.deletedResourceForeground":"#ff0000",
+		"gitDecoration.modifiedResourceForeground":"#3d82c6",
+		"gitDecoration.deletedResourceForeground":"#d21d00"
 		// "gitDecoration.untrackedResourceForeground":"#ff0000",
 		// "gitDecoration.ignoredResourceForeground":"#ff0000",
 		// "gitDecoration.conflictingResourceForeground":"#ff0000",
@@ -475,6 +470,13 @@
 			}
 		},
 		{
+			"name": "Json",
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#4B83CD"
+			}
+		},
+		{
 			"name": "Link Text",
 			"scope": "string.other.link",
 			"settings": {
@@ -614,16 +616,6 @@
 			],
 			"settings": {
 				"foreground": "#7A3E9D"
-			}
-		},
-		{
-			"name": "CSS: Property Names",
-			"scope": [
-				"meta.property-name",
-				"support.type.property-name"
-			],
-			"settings": {
-				"foreground": "#AB6526"
 			}
 		},
 		{

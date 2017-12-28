@@ -143,12 +143,12 @@
 		"editorOverviewRuler.warningForeground":"#deb800",
 		"editorOverviewRuler.infoForeground":"#deb800",
 		// Errors and warnings
-		"editorError.border": "#d21d00",
-		"editorError.foreground": "#fff",
-		"editorWarning.border": "#deb800",
-		"editorWarning.foreground": "#fff",
-		"editorInfo.border": "#deb800",
-		"editorInfo.foreground": "#fff",
+		"editorError.border": "#fff",
+		"editorError.foreground": "#d21d00",
+		"editorWarning.border": "#fff",
+		"editorWarning.foreground": "#deb800",
+		"editorInfo.border": "#fff",
+		"editorInfo.foreground": "#deb800",
 		// Gutter
 		"editorGutter.modifiedBackground": "#F0C36F",
 		"editorGutter.addedBackground": "#A1DF8A",

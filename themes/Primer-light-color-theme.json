@@ -148,6 +148,7 @@
 		"editorWarning.border": "#deb800",
 		"editorWarning.foreground": "#fff",
 		"editorInfo.border": "#deb800",
+		"editorInfo.foreground": "#fff",
 		// Gutter
 		"editorGutter.modifiedBackground": "#F0C36F",
 		"editorGutter.addedBackground": "#A1DF8A",

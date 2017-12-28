@@ -1,6 +1,6 @@
 # PRIMER-LIGHT
-## This is a port of the Primer theme from Sublime Text
-Primer is as light theme based on GitHub's UI and design guidelines.
+## A port of the Primer theme from Sublime Text
+Primer is a light theme based on GitHub's UI and design guidelines.
 
 # Installation
 

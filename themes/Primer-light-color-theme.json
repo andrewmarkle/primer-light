@@ -108,23 +108,23 @@
 		"editor.selectionBackground": "#acd5ff",
 		"editor.selectionHighlightBackground": "#e9f4ff",
 		// "editor.inactiveSelectionBackground": "#d70bbf",
-		// "editor.wordHighlightBackground": "#ffcc6633",
-		// "editor.wordHighlightStrongBackground": "#ffcc6633",
-		"editor.findMatchBackground": "#ffcc6633",
-		"editor.findMatchHighlightBackground": "#ffcc6633",
-		"editor.findRangeHighlightBackground": "#ffcc6633",
-		"editor.hoverHighlightBackground": "#ffcc6633",
+		// "editor.wordHighlightBackground": "#fff78a7e",
+		// "editor.wordHighlightStrongBackground": "#fff78a7e",
+		"editor.findMatchBackground": "#fff78a7e",
+		"editor.findMatchHighlightBackground": "#fff78a7e",
+		"editor.findRangeHighlightBackground": "#fff78a7e",
+		"editor.hoverHighlightBackground": "#fff78a7e",
 		"editor.lineHighlightBackground": "#F0F5FA",
 		"editor.lineHighlightBorder": "#F0F5FA",
-		"editorLink.activeForeground": "#ff0000",
-		"editor.rangeHighlightBackground": "#ffcc6633",
+		"editorLink.activeForeground": "#0366d6",
+		"editor.rangeHighlightBackground": "#fff78a7e",
 		// Rulers, whitespace, indent-lines, line numbers
 		"editorLineNumber.foreground": "#b3b3b3",
-		"editorWhitespace.foreground": "#ececec",
-		"editorIndentGuide.background": "#ececec",
+		"editorWhitespace.foreground": "#ececec7b",
+		"editorIndentGuide.background": "#ececec7b",
 		"editorRuler.foreground": "#e8e8e8",
 		// Code Lens
-		"editorCodeLens.foreground": "#ff0000",
+		"editorCodeLens.foreground": "#0366d6",
 		// Matching brackets
 		"editorBracketMatch.background": "#F0F5FA",
 		"editorBracketMatch.border": "#e8e8e8",
@@ -227,7 +227,7 @@
 		//
 		// Notification Dialog Colors
 		// Notifications slide in from the top of the workbench.
-		"notification.background": "#ddd",
+		"notification.background": "#fff",
 		"notification.foreground": "#333",
 		"notification.buttonBackground": "#3d82c6",
 		"notification.buttonForeground": "#fff",
@@ -261,22 +261,22 @@
 		"terminal.ansiBrightCyan": "#85e7ee",
 		"terminal.ansiBrightWhite": "#ffffff",
 		// Debug
-		"debugToolBar.background": "#3d82c6",
+		"debugToolBar.background": "#fff",
 		// Welcome Page
 		// "welcomePage.buttonBackground":"#ff0000",
 		// "welcomePage.buttonHoverBackground":"#ff0000",
 		// "walkThrough.embeddedEditorBackground":"#ff0000",
 		// Git Colors
 		"gitDecoration.modifiedResourceForeground":"#3d82c6",
-		"gitDecoration.deletedResourceForeground":"#d21d00"
-		// "gitDecoration.untrackedResourceForeground":"#ff0000",
-		// "gitDecoration.ignoredResourceForeground":"#ff0000",
-		// "gitDecoration.conflictingResourceForeground":"#ff0000",
+		"gitDecoration.deletedResourceForeground":"#d21d00",
+		"gitDecoration.untrackedResourceForeground":"#444d56",
+		"gitDecoration.ignoredResourceForeground":"#2f363d",
+		"gitDecoration.conflictingResourceForeground":"#f66a0a"
 	},
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#333333ff",
+				"foreground": "#333",
 				"background": "#f5f5f5ff"
 			}
 		},

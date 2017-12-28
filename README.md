@@ -1,5 +1,5 @@
 # PRIMER-LIGHT
-## A port of the Primer theme from Sublime Text
+## A VS Code port of the Primer theme from Sublime Text
 Primer is a light theme based on GitHub's UI and design guidelines.
 
 # Installation

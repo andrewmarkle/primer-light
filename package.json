@@ -1,9 +1,9 @@
 {
-    "name": "primer-ish",
-    "displayName": "primer-ish",
-    "description": "A port of the primer theme from sublime",
+    "name": "primer-light",
+    "displayName": "Primer Light",
+    "description": "This is a port of the primer light theme from sublime text.",
     "version": "0.0.1",
-    "publisher": "c",
+    "publisher": "andrewmarkle",
     "engines": {
         "vscode": "^1.19.0"
     },
@@ -13,16 +13,16 @@
     "contributes": {
         "themes": [
             {
-                "label": "Primer-ish",
+                "label": "Primer Light",
                 "uiTheme": "vs",
-                "path": "./themes/Primer-ish-color-theme.json"
+                "path": "./themes/Primer-light-color-theme.json"
             }
         ],
         "iconThemes": [
             {
                 "id": "primer",
-                "label": "Primer-ish",
-                "path": "./Primer-ish-icons.json"
+                "label": "Primer Light",
+                "path": "./Primer-light-icons.json"
             }
         ]
     }

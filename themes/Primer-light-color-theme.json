@@ -194,11 +194,11 @@
 		// "peekViewTitleLabel.foreground":"#ff0000",
 		// Merge Conflicts
 		// Merge conflict decorations are shown when the editor contains special diff ranges.
-		// "merge.currentHeaderBackground":"#ff0000",
+		"merge.currentHeaderBackground":"#f66a0a",
 		// "merge.currentContentBackground":"#ff0000",
 		// "merge.incomingHeaderBackground":"#ff0000",
 		// "merge.incomingContentBackground":"#ff0000",
-		// "merge.border":"#ff0000",
+		"merge.border":"#fff",
 		// "merge.commonContentBackground":"#ff0000",
 		// "merge.commonHeaderBackground":"#ff0000",
 		// "editorOverviewRuler.currentContentForeground":"#ff0000",

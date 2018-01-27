@@ -1,5 +1,5 @@
 {
-	"name": "Primer-ish",
+	"name": "Primer Light",
 	"type": "light",
 	"colors": {
 		// Refefence here: https://code.visualstudio.com/docs/getstarted/theme-color-reference
@@ -276,8 +276,7 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#333",
-				"background": "#f5f5f5ff"
+				"foreground": "#333"				
 			}
 		},
 		{
@@ -554,36 +553,21 @@
 				"foreground": "#ab7967"
 			}
 		},
-
-		{
-			"name": "HTML: Doctype Declaration",
-			"scope": [
-				"meta.tag.sgml.doctype",
-				"meta.tag.sgml.doctype string",
-				"meta.tag.sgml.doctype entity.name.tag",
-				"meta.tag.sgml punctuation.definition.tag.html"
-			],
-			"settings": {
-				"foreground": "#AAAAAA"
-			}
-		},
 		{
 			"name": "HTML: Tags",
 			"scope": [
-				"meta.tag",
-				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#91B3E0"
+				"foreground": "#333"
 			}
 		},
 		{
 			"name": "HTML: Tag Names",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#63a3a4"
 			}
 		},
 		{

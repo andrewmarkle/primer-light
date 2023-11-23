@@ -2,32 +2,26 @@
 	"name": "Primer Light",
 	"type": "light",
 	"colors": {
-		// Refefence here: https://code.visualstudio.com/docs/getstarted/theme-color-reference
+		// Reference here: https://code.visualstudio.com/docs/getstarted/theme-color-reference
+	
 		// Base Colors
 		"focusBorder": "#ddd",
 		"foreground": "#333",
 		"widget.shadow": "#dddddd",
 		"selection.background": "#3d81c683",
-		// "descriptionForeground": "#ff0000",
-		// "errorForeground": "#ff0000",
-		// Text Colors
-		// Colors inside a text document, such as the welcome page.
-		// "textBlockQuote.background": "#3d82c6",
-		// "textBlockQuote.border":"#ff0000",
-		// "textLink.activeForeground": "#ffcc66",
-		// "textLink.foreground": "#ff009d",
-		// "textPreformat.foreground":"#ff0000",
-		// "textSeparator.foreground":"#ff0000",
+	
 		// Button Control
 		// Such as the reload buttons in the extension windows
 		"button.background": "#3d82c6",
 		"button.hoverBackground": "#064e93",
 		"button.foreground": "#fff",
+		
 		// Dropdown Control
 		// A set of colors for all dropdown widgets such as in the Integrated Terminal or the Output panel.
 		"dropdown.background": "#fff",
 		"dropdown.border": "#ddd",
 		"dropdown.foreground": "#333",
+		
 		// Input Control
 		// Colors for input controls such as in the Search view or the Find/Replace dialog.
 		"input.background": "#fff",
@@ -41,21 +35,24 @@
 		"inputValidation.infoBorder": "#0086B3",
 		"inputValidation.warningBackground": "#fff",
 		"inputValidation.warningBorder": "#F0C36F",
+		
 		// Scrollbar
 		"scrollbarSlider.background": "#cfcfcf52",
 		"scrollbarSlider.hoverBackground": "#cfcfcf9e",
 		"scrollbarSlider.activeBackground": "#cfcfcfee",
+		
 		// Badge
 		"badge.background": "#3d82c6",
 		"badge.foreground": "#fff",
+		
 		// Progress Bar
 		"progressBar.background": "#3d82c6",
+		
 		// Lists and Trees
 		// Colors for list and trees like the File Explorer.
 		// An active list/tree has keyboard focus, an inactive does not.
 		"list.activeSelectionBackground": "#3d82c6",
 		"list.activeSelectionForeground": "#fff",
-		// "list.dropBackground": "#ddd",
 		"list.focusBackground": "#dbebfd",
 		"list.focusForeground": "#333",
 		"list.highlightForeground": "#3d82c6",
@@ -63,17 +60,15 @@
 		"list.hoverForeground": "#000",
 		"list.inactiveSelectionBackground": "#dbebfd",
 		"list.inactiveSelectionForeground": "#4180C6",
-		// "list.inactiveFocusBackground": "#ff0000",
-		// "list.inactiveFocusForeground": "#333",
-		// "list.invalidItemForeground": "#333",
+
 		// Activity Bar
 		// The Activity Bar is displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar.
 		"activityBar.background": "#f5f5f5",
-		"activityBar.dropBackground": "#fff",
 		"activityBar.foreground": "#333",
 		"activityBar.border": "#ddd",
 		"activityBarBadge.background": "#ddd",
 		"activityBarBadge.foreground": "#333",
+
 		// Sidebar
 		// The Side Bar contains views like the Explorer and Search.
 		"sideBar.background": "#f5f5f5",
@@ -82,14 +77,11 @@
 		"sideBarTitle.foreground": "#333",
 		"sideBarSectionHeader.background": "#fff",
 		"sideBarSectionHeader.foreground": "#333",
+		
 		// Editor Groups & Tabs
 		// Editor Groups are the containers of editors. There can be up to three editor groups. A Tab is the container of an editor.
 		// Multiple Tabs can be opened in one editor group.
-		// "editorGroup.background": "#272d38",
 		"editorGroup.border": "#ddd",
-		// "editorGroupHeader.tabsBackground": "#fff",
-		// "editorGroupHeader.noTabsBackground": "#fff",
-		// "editorGroupHeader.tabsBorder": "#343d4a",
 		"tab.activeBackground": "#3d82c6",
 		"tab.inactiveBackground": "#fff",
 		"tab.activeForeground": "#fff",
@@ -99,6 +91,7 @@
 		"tab.unfocusedActiveForeground": "#fff",
 		"tab.unfocusedInactiveForeground": "#666666",
 		"tab.unfocusedActiveBorder": "#3d82c6",
+
 		// Editor Colors
 		// The most prominent editor colors are the token colors that are based on the language grammar installed.
 		"editor.background": "#fff",
@@ -107,9 +100,6 @@
 		"editorCursor.foreground": "#333",
 		"editor.selectionBackground": "#acd5ff",
 		"editor.selectionHighlightBackground": "#e9f4ff",
-		// "editor.inactiveSelectionBackground": "#d70bbf",
-		// "editor.wordHighlightBackground": "#fff78a7e",
-		// "editor.wordHighlightStrongBackground": "#fff78a7e",
 		"editor.findMatchBackground": "#fff78a7e",
 		"editor.findMatchHighlightBackground": "#fff78a7e",
 		"editor.findRangeHighlightBackground": "#fff78a7e",
@@ -118,30 +108,29 @@
 		"editor.lineHighlightBorder": "#F0F5FA",
 		"editorLink.activeForeground": "#0366d6",
 		"editor.rangeHighlightBackground": "#fff78a7e",
+
 		// Rulers, whitespace, indent-lines, line numbers
 		"editorLineNumber.foreground": "#b3b3b3",
 		"editorWhitespace.foreground": "#ececec7b",
-		"editorIndentGuide.background": "#ececec7b",
 		"editorRuler.foreground": "#e8e8e8",
+
 		// Code Lens
 		"editorCodeLens.foreground": "#0366d6",
+
 		// Matching brackets
 		"editorBracketMatch.background": "#F0F5FA",
 		"editorBracketMatch.border": "#e8e8e8",
+
 		// Overview Ruler
 		// This ruler is located beneath the scroll bar on the right edge of the editor and gives an overview of the decorations in the editor.
 		"editorOverviewRuler.border": "#ddd",
-		// "editorOverviewRuler.findMatchForeground":"#abd4ff",
-		// "editorOverviewRuler.rangeHighlightForeground":"#ff0000",
-		// "editorOverviewRuler.selectionHighlightForeground":"#ff0000",
-		// "editorOverviewRuler.wordHighlightForeground":"#ff0000",
-		// "editorOverviewRuler.wordHighlightStrongForeground":"#ff0000",
 		"editorOverviewRuler.modifiedForeground":"#5F7387",
 		"editorOverviewRuler.addedForeground":"#A1DF8A",
 		"editorOverviewRuler.deletedForeground":"#EB5368",
 		"editorOverviewRuler.errorForeground":"#d21d00",
 		"editorOverviewRuler.warningForeground":"#deb800",
 		"editorOverviewRuler.infoForeground":"#deb800",
+		
 		// Errors and warnings
 		"editorError.border": "#fff",
 		"editorError.foreground": "#d21d00",
@@ -167,49 +156,19 @@
 		"editorSuggestWidget.selectedBackground":"#acd5ff",
 		"editorHoverWidget.background":"#fff",
 		"editorHoverWidget.border": "#ddd",
-		// Debug Exception Widget
-		// The Debug Exception widget is a peek view that shows in the editor when debug stops at an exception.
-		// "debugExceptionWidget.background":"#ff0000",
-		// "debugExceptionWidget.border":"#ff0000",
-		// Editor Marker
-		// The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
-		// "editorMarkerNavigation.background":"#ff0000",
-		// "editorMarkerNavigationError.background":"#ff0000",
-		// "editorMarkerNavigationWarning.background":"#ff0000",
-		// "editorMarkerNavigationInfo.background":"#ff0000",
-		// Peek View Colors
-		// Peek views are used to show references and declarations as a view inside the editor.
-		// "peekView.border":"#ff0000",
-		// "peekViewEditor.background":"#ff0000",
-		// "peekViewEditorGutter.background":"#ff0000",
-		// "peekViewEditor.matchHighlightBackground":"#ff0000",
-		// "peekViewResult.background":"#ff0000",
-		// "peekViewResult.fileForeground":"#ff0000",
-		// "peekViewResult.lineForeground":"#ff0000",
-		// "peekViewResult.matchHighlightBackground":"#ff0000",
-		// "peekViewResult.selectionBackground":"#ff0000",
-		// "peekViewResult.selectionForeground":"#ff0000",
-		// "peekViewTitle.background":"#ff0000",
-		// "peekViewTitleDescription.foreground":"#ff0000",
-		// "peekViewTitleLabel.foreground":"#ff0000",
+		
 		// Merge Conflicts
 		// Merge conflict decorations are shown when the editor contains special diff ranges.
 		"merge.currentHeaderBackground":"#f66a0a",
-		// "merge.currentContentBackground":"#ff0000",
-		// "merge.incomingHeaderBackground":"#ff0000",
-		// "merge.incomingContentBackground":"#ff0000",
 		"merge.border":"#fff",
-		// "merge.commonContentBackground":"#ff0000",
-		// "merge.commonHeaderBackground":"#ff0000",
-		// "editorOverviewRuler.currentContentForeground":"#ff0000",
-		// "editorOverviewRuler.incomingContentForeground":"#ff0000",
-		// "editorOverviewRuler.commonContentForeground":"#ff0000",
+
 		// Panel Colors (bar above the terminal)
 		"panel.background": "#f7f7f7",
 		"panel.border": "#ddd",
 		"panelTitle.activeBorder": "#ddd",
 		"panelTitle.activeForeground": "#333",
 		"panelTitle.inactiveForeground": "#666",
+		
 		// Status Bar Colors
 		// The Status Bar is shown in the bottom of the workbench.
 		"statusBar.background": "#ddd",
@@ -222,18 +181,10 @@
 		"statusBarItem.hoverBackground": "#ddd",
 		"statusBarItem.prominentBackground": "#f7f7f7f7",
 		"statusBarItem.prominentHoverBackground": "#ddd",
+		
 		// Title Bar Colors (macOS)
 		// Leaving this section empty to stick with the native macOS title bar
-		//
-		// Notification Dialog Colors
-		// Notifications slide in from the top of the workbench.
-		"notification.background": "#fff",
-		"notification.foreground": "#333",
-		"notification.buttonBackground": "#3d82c6",
-		"notification.buttonForeground": "#fff",
-		"notification.buttonHoverBackground": "#064e93",
-		"notification.errorBackground": "#f9f2f4",
-		"notification.errorForeground": "#c7264e",
+	
 		// Extensions
 		"extensionButton.prominentBackground": "#3d82c6",
 		"extensionButton.prominentHoverBackground": "#3d82c6",
@@ -260,12 +211,10 @@
 		"terminal.ansiBrightMagenta": "#ff77ff",
 		"terminal.ansiBrightCyan": "#85e7ee",
 		"terminal.ansiBrightWhite": "#ffffff",
+		
 		// Debug
 		"debugToolBar.background": "#fff",
-		// Welcome Page
-		// "welcomePage.buttonBackground":"#ff0000",
-		// "welcomePage.buttonHoverBackground":"#ff0000",
-		// "walkThrough.embeddedEditorBackground":"#ff0000",
+		
 		// Git Colors
 		"gitDecoration.modifiedResourceForeground":"#3d82c6",
 		"gitDecoration.deletedResourceForeground":"#d21d00",

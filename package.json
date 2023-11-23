@@ -2,7 +2,7 @@
     "name": "primer-light",
     "displayName": "Primer Light",
     "description": "This is a port of the primer light theme from sublime text.",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "publisher": "andrewmarkle",
     "icon": "images/logo.png",
     "repository": {

@@ -3,12 +3,14 @@
 	"type": "light",
 	"colors": {
 		// Reference here: https://code.visualstudio.com/docs/getstarted/theme-color-reference
+		// 
 	
 		// Base Colors
 		"focusBorder": "#ddd",
 		"foreground": "#333",
 		"widget.shadow": "#dddddd",
 		"selection.background": "#3d81c683",
+		"tab.unfocusedInactiveBackground": "#dfeffad1",
 	
 		// Button Control
 		// Such as the reload buttons in the extension windows
@@ -82,15 +84,18 @@
 		// Editor Groups are the containers of editors. There can be up to three editor groups. A Tab is the container of an editor.
 		// Multiple Tabs can be opened in one editor group.
 		"editorGroup.border": "#ddd",
-		"tab.activeBackground": "#3d82c6",
 		"tab.inactiveBackground": "#fff",
+		"tab.activeBackground": "#3d82c6",
 		"tab.activeForeground": "#fff",
 		"tab.activeBorder": "#3d82c6",
 		"tab.inactiveForeground": "#666",
 		"tab.border": "#fff",
-		"tab.unfocusedActiveForeground": "#fff",
+		"tab.unfocusedActiveForeground": "#000",
 		"tab.unfocusedInactiveForeground": "#666666",
 		"tab.unfocusedActiveBorder": "#3d82c6",
+		"list.warningForeground": "#ffaa4f",
+		"list.errorForeground": "#d21d00",
+
 
 		// Editor Colors
 		// The most prominent editor colors are the token colors that are based on the language grammar installed.
@@ -108,6 +113,8 @@
 		"editor.lineHighlightBorder": "#F0F5FA",
 		"editorLink.activeForeground": "#0366d6",
 		"editor.rangeHighlightBackground": "#fff78a7e",
+		"editorGhostText.border": "#3d82c6",
+		"editorGhostText.foreground": "#3d82c6",
 
 		// Rulers, whitespace, indent-lines, line numbers
 		"editorLineNumber.foreground": "#b3b3b3",
@@ -189,10 +196,10 @@
 		"extensionButton.prominentBackground": "#3d82c6",
 		"extensionButton.prominentHoverBackground": "#3d82c6",
 		"extensionButton.prominentForeground": "#fff",
-		// Quick Picker (Quick Open) color for grouping borders.
-		// "pickerGroup.border":"#ff0000",
-		// "pickerGroup.foreground":"#ff0000",
+
+
 		// Terminal Colors
+		"terminal.selectionBackground": "#89ceffd1",
 		"terminal.background": "#142638",
 		"terminal.foreground": "#fff",
 		"terminal.ansiBlack": "#000",
@@ -216,7 +223,7 @@
 		"debugToolBar.background": "#fff",
 		
 		// Git Colors
-		"gitDecoration.modifiedResourceForeground":"#3d82c6",
+		"gitDecoration.modifiedResourceForeground": "#333",
 		"gitDecoration.deletedResourceForeground":"#d21d00",
 		"gitDecoration.untrackedResourceForeground":"#444d56",
 		"gitDecoration.ignoredResourceForeground":"#2f363d",
